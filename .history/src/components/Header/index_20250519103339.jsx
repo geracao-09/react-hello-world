@@ -1,0 +1,14 @@
+import avatar from "../../assets/avatar.jpg"
+
+const Header = () => {
+    return (
+        <header className="flex mx-9 my-11">
+            <div>
+                <img src={avatar} alt="Avatar" className="w-24 rounded-full" />
+                <h3 className="text-white">Cesar Hideki</h3>
+            </div>
+        </header>
+    );
+}
+
+export default Header;
