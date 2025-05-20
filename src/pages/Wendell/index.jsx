@@ -1,7 +1,13 @@
+import Body from "./components/Body";
+import Header from "./components/Header";
+
 const Wendell = () => {
-    return ( 
-        <h1>Oi, eu sou o <span className="font-bold">Wendell</span></h1>
-     );
+    return (
+        <div>
+            <Header />
+            <Body />
+        </div>
+    );
 }
- 
+
 export default Wendell;
