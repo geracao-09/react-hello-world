@@ -39,7 +39,8 @@ function App() {
           <Route path="/giovana" element={<Giovana />} />
           <Route path="/hideki" element={<Hideki />} />
           <Route path="/hideki/sobremim" element={<SobreMim />} />
-          <Route path="/hideki/curriculo" element={<Curriculo />} />
+          <Route path="/hideki/curriculo" element={<Curriculorriculo />} />
+
         </Routes>
       </BrowserRouter>
     </>

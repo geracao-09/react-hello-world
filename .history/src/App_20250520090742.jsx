@@ -13,9 +13,6 @@ import Renato from "./pages/Renato"
 import Giovana from "./pages/Giovana"
 import Hideki from "./pages/Hideki"
 import Mayara from "./pages/Mayara"
-import Index from "./pages/Index"
-import SobreMim from "./pages/Hideki/pages/SobreMim"
-import Curriculo from "./pages/Hideki/pages/Curriculo"
 
 function App() {
 
@@ -23,7 +20,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Index />} />
+          <Route path="/" element={}
           <Route path="/wendell" element={<Wendell />} />
           <Route path="/joaovictor" element={<JoaoVictor />} />
           <Route path="/mayara" element={<Mayara />} />
@@ -38,8 +35,6 @@ function App() {
           <Route path="/renato" element={<Renato />} />
           <Route path="/giovana" element={<Giovana />} />
           <Route path="/hideki" element={<Hideki />} />
-          <Route path="/hideki/sobremim" element={<SobreMim />} />
-          <Route path="/hideki/curriculo" element={<Curriculo />} />
         </Routes>
       </BrowserRouter>
     </>
