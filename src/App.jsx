@@ -13,6 +13,7 @@ import Theo from "./pages/Theo"
 import Lucas from "./pages/Lucas"
 import JoaoPaulo from "./pages/JoaoPaulo"
 import Renato from "./pages/Renato"
+import Mayara from "./pages/Mayara"
 
 function App() {
 
@@ -27,7 +28,10 @@ function App() {
           <Route path="/mayara" element={<Mayara />} />
           <Route path="/fabilson" element={<Fabilson />} />
           <Route path="/igor" element={<Igor />} />
-          <Route path="/will" element={<Will />} />
+          <Route path="/will" element={<Will />} >
+          <Route path="/will/curriculo" element={<CurriculoWill />} />
+          <Route path="/will/sobremim" element={<SobreMimWill />} />
+          </Route>
           <Route path="/ana" element={<Ana />} />
           <Route path="/gabriel" element={<Gabriel />} />
           <Route path="/theo" element={<Theo />} />
