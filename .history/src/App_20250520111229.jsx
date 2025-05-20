@@ -22,11 +22,11 @@ function App() {
       <Header lista={links} socialLinks={socialLinks}/>
 
       <BrowserRouter>
-        <Routes>
+        <Route>
           <Route path="/wendell" element={<Wendell />} />
           <Route path="/joaovictor" element={<JoaoVictor />} />
           <Route path="/mayara" element={<Mayara />} />
-          <Route path="/fablilson" element={<Fablilson />} >
+          <Route path="/fablilson" element={<Fablilson />} />
             <Route path="/fablilson/curriculo" element={<curriculoFablilson />} />
             <Route path="/fablilson/curriculo" element={<sobremimFablilson />} />
           </Route>

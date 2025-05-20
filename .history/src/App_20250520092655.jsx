@@ -4,7 +4,7 @@ import links from "/src/data/header.json"
 import socialLinks from "/src/data/social-media.json"
 import Wendell from "./pages/Wendell"
 import JoaoVictor from "./pages/JoaoVictor"
-import Fablilson from "./pages/Fablilson"
+import Fabilson from "./pages/Fabilson"
 import Igor from "./pages/Igor"
 import Will from "./pages/Will"
 import Ana from "./pages/Ana"
@@ -13,7 +13,6 @@ import Theo from "./pages/Theo"
 import Lucas from "./pages/Lucas"
 import JoaoPaulo from "./pages/JoaoPaulo"
 import Renato from "./pages/Renato"
-import Mayara from "./pages/Mayara  "
 
 function App() {
 
@@ -26,10 +25,7 @@ function App() {
           <Route path="/wendell" element={<Wendell />} />
           <Route path="/joaovictor" element={<JoaoVictor />} />
           <Route path="/mayara" element={<Mayara />} />
-          <Route path="/fablilson" element={<Fablilson />} >
-            <Route path="/fablilson/curriculo" element={<curriculoFablilson />} />
-            <Route path="/fablilson/curriculo" element={<sobremimFablilson />} />
-          </Route>
+          <Route path="/fabilsonn" element={<Fabilson />} />
           <Route path="/igor" element={<Igor />} />
           <Route path="/will" element={<Will />} />
           <Route path="/ana" element={<Ana />} />

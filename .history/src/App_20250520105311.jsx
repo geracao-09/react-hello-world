@@ -26,10 +26,7 @@ function App() {
           <Route path="/wendell" element={<Wendell />} />
           <Route path="/joaovictor" element={<JoaoVictor />} />
           <Route path="/mayara" element={<Mayara />} />
-          <Route path="/fablilson" element={<Fablilson />} >
-            <Route path="/fablilson/curriculo" element={<curriculoFablilson />} />
-            <Route path="/fablilson/curriculo" element={<sobremimFablilson />} />
-          </Route>
+          <Route path="/fablilson/curriculo" element={<curriculoFablilson }
           <Route path="/igor" element={<Igor />} />
           <Route path="/will" element={<Will />} />
           <Route path="/ana" element={<Ana />} />

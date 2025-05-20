@@ -29,7 +29,7 @@ function App() {
           <Route path="/fablilson" element={<Fablilson />} >
             <Route path="/fablilson/curriculo" element={<curriculoFablilson />} />
             <Route path="/fablilson/curriculo" element={<sobremimFablilson />} />
-          </Route>
+          </Routes>
           <Route path="/igor" element={<Igor />} />
           <Route path="/will" element={<Will />} />
           <Route path="/ana" element={<Ana />} />

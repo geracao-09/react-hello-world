@@ -13,7 +13,6 @@ import Theo from "./pages/Theo"
 import Lucas from "./pages/Lucas"
 import JoaoPaulo from "./pages/JoaoPaulo"
 import Renato from "./pages/Renato"
-import Mayara from "./pages/Mayara  "
 
 function App() {
 
@@ -25,11 +24,8 @@ function App() {
         <Routes>
           <Route path="/wendell" element={<Wendell />} />
           <Route path="/joaovictor" element={<JoaoVictor />} />
-          <Route path="/mayara" element={<Mayara />} />
-          <Route path="/fablilson" element={<Fablilson />} >
-            <Route path="/fablilson/curriculo" element={<curriculoFablilson />} />
-            <Route path="/fablilson/curriculo" element={<sobremimFablilson />} />
-          </Route>
+          <Route path="/mayara" element={<Mayara} />
+          <Route path="/fablilson" element={<Fablilson />} />
           <Route path="/igor" element={<Igor />} />
           <Route path="/will" element={<Will />} />
           <Route path="/ana" element={<Ana />} />
