@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Instagram logo",
+        "path": "/instagram.png"
+    },
+    {
+        "id": 1,
+        "name": "Github logo",
+        "path": "/github.png"
+    },
+    {
+        "name": "Linkedin logo",
+        "path": "/linkedin.png"
+    }
+]
