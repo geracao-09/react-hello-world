@@ -1,0 +1,87 @@
+{
+    "formacao_academica": [
+        {
+            "curso": "Tecnólogo em Sistemas para Internet",
+            "instituicao": "Universidade Unicesumar",
+            "periodo": "2017 - 2022",
+            "carga_horaria": "2.280 horas"
+        },
+        
+        {
+            "curso": "Especialização Lato Sensu em Banco de Dados",
+            "instituicao": "Faculdade FACUMINAS",
+            "periodo": "2023",
+            "carga_horaria": "700 horas"
+        }
+    ],
+    "certificacoes": [
+        {
+            "nome": "Linux System Administration",
+            "instituicao": "4Linux",
+            "ano": 2008,
+            "carga_horaria": "44 horas"
+        },
+        {
+            "nome": "Certificação LPI Internacional 101 e 102",
+            "instituicao": "Linux Professional Institute",
+            "ano": 2010
+        }
+        
+    ],
+    "experiencia_profissional": [
+        {
+            "empresa": "Empresa Pública",
+            "periodo": "2020 - 2024",
+            "cargos": [
+                "Chefe de Seção de Informática",
+                "Adjunto de TI",
+                "Analista de Suporte Nível 2"
+            ],
+            "atividades": [
+                "Administração de Sistemas: Gerenciamento de servidores Linux e Windows, incluindo instalação, configuração e manutenção de serviços críticos.",
+                "Virtualização: Implementação de soluções com Proxmox e Xen, otimizando o uso de recursos e garantindo alta disponibilidade.",
+                "Segurança da Informação: Implementação de firewalls com Iptables e configuração de proxies Squid para controle de tráfego e segurança.",
+                "Monitoramento e Automação: Configuração de ferramentas de monitoramento como Zabbix, Nagios e Grafana, integrando-as com sistemas de alerta e métricas em tempo real.",
+                "Gerenciamento de Redes: Planejamento e administração de redes TCP/IP e cabeamento estruturado para garantir comunicação eficiente entre departamentos.",
+                "Desenvolvimento Web: Criação de sistemas web em PHP e Python, com integrações a bases de dados PostgreSQL e MySQL.",
+                "Administração de Sistemas de Helpdesk: Gestão de tickets e ativos com GLPI e OTRS, otimizando o suporte técnico e a gerência de ativos de TI.",
+                "Gerenciamento de Projetos: Liderança na implantação de soluções tecnológicas, desde o levantamento de requisitos até a entrega e manutenção."
+            ]
+        }
+    ],
+    "projetos_recentes": [
+        {
+            "nome": "Sistema de Fiscalização de Contratos",
+            "descricao": "Desenvolvimento de um sistema em Python utilizando a API do Zabbix para monitoramento de contratos de TI e serviços contratados."
+        },
+        {
+            "nome": "Painéis de Monitoramento de Redes com Grafana",
+            "descricao": "Configuração de painéis interativos com Grafana para visualizar métricas de performance de rede e serviços críticos em tempo real."
+        },
+        {
+            "nome": "Automatização de Backup com Scripts Bash",
+            "descricao": "Implementação de soluções automatizadas de backup com Bash, garantindo a integridade e disponibilidade de dados críticos."
+        }
+    ],
+    "cursos_complementares": [       
+        
+        {
+            "nome": "Introdução ao Desenvolvimento de Aplicações Android",
+            "instituicao": "UECE",
+            "ano": 2024,
+            "carga_horaria": "120 horas"
+        },
+       
+        {
+            "nome": "Engenharia de Dados",
+            "instituicao": "Santander Coders",
+            "ano": 2024,
+            "status": "em andamento"
+        }
+    ],
+    "contato": {
+        "email": "teophilo@gmail.com",
+        "linkedin": "https://linkedin.com/in/teophilo-silva-dev",
+        "github": "https://github.com/theophiloweb"
+    }
+}
