@@ -26,9 +26,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/wendell" element={<Wendell />}></Route>
-          <Route path="/wendell/curriculo" element={<CurriculoWendell />} />
-          <Route path="/wendell/sobremim" element={<SobreMimWendell />} />
+          <Route path="/wendell" element={<Wendell />}>
+            <Route path="/wendell/curriculo" element={<CurriculoWendell />} />
+            <Route path="/wendell/sobremim" element={<SobreMimWendell />} />
           <Route path="/joaovictor" element={<JoaoVictor />} />
           <Route path="/mayara" element={<Mayara />} />
           <Route path="/fabilson" element={<Fabilson />} />
@@ -41,9 +41,10 @@ function App() {
           <Route path="/joaopaulo" element={<JoaoPaulo />} />
           <Route path="/renato" element={<Renato />} />
           <Route path="/giovana" element={<Giovana />} />
-          <Route path="/hideki" element={<Hideki />} />
-          <Route path="/hideki/sobremim" element={<SobreMimHideki />} />
-          <Route path="/hideki/curriculo" element={<CurriculoHideki />} />
+          <Route path="/hideki" element={<Hideki />}>
+            <Route path="/hideki/sobremim" element={<SobreMimHideki />} />
+            <Route path="/hideki/curriculo" element={<CurriculoHideki />} />
+          </Route>
         </Routes>
       </BrowserRouter>
     </>
