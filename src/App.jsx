@@ -3,10 +3,12 @@ import Wendell from "./pages/Wendell"
 import CurriculoWendell from "./pages/Wendell/pages/CurriculoWendell"
 import SobreMimWendell from "./pages/Wendell/pages/SobreMimWendell"
 import JoaoVictor from "./pages/JoaoVictor"
+import Mayara from "./pages/Mayara"
 import Fabilson from "./pages/Fabilson"
 import Igor from "./pages/Igor"
 import Will from "./pages/Will"
-import Ana from "./pages/Ana"
+import SobreMim from "./pages/Ana/pages/SobreMimAna"
+import Curriculo from "./pages/Ana/pages/CurriculoAna"
 import Gabriel from "./pages/Gabriel"
 import Theo from "./pages/Theo"
 import Lucas from "./pages/Lucas"
@@ -36,7 +38,8 @@ function App() {
           <Route path="/fabilson" element={<Fabilson />} />
           <Route path="/igor" element={<Igor />} />
           <Route path="/will" element={<Will />} />
-          <Route path="/ana" element={<Ana />} />
+          <Route path="/ana/sobremim" element={<SobreMimAna />} />
+          <Route path="/ana/curriculo" element={<CurriculoAna />} />
           <Route path="/gabriel" element={<Gabriel />} />
           <Route path="/theo" element={<Theo />} />
           <Route path="/lucas" element={<Lucas />} />
