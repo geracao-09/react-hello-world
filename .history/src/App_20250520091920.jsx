@@ -40,6 +40,7 @@ function App() {
           <Route path="/hideki" element={<Hideki />} />
           <Route path="/hideki/sobremim" element={<SobreMim />} />
           <Route path="/hideki/curriculo" element={<Curriculo />} />
+
         </Routes>
       </BrowserRouter>
     </>

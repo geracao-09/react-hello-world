@@ -14,8 +14,6 @@ import Giovana from "./pages/Giovana"
 import Hideki from "./pages/Hideki"
 import Mayara from "./pages/Mayara"
 import Index from "./pages/Index"
-import SobreMim from "./pages/Hideki/pages/SobreMim"
-import Curriculo from "./pages/Hideki/pages/Curriculo"
 
 function App() {
 
@@ -40,6 +38,7 @@ function App() {
           <Route path="/hideki" element={<Hideki />} />
           <Route path="/hideki/sobremim" element={<SobreMim />} />
           <Route path="/hideki/curriculo" element={<Curriculo />} />
+
         </Routes>
       </BrowserRouter>
     </>
