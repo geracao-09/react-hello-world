@@ -1,6 +1,6 @@
 import SobreMimBody from "../../components/SobreMimBody";
 
-const Sobre = () => {
+const SobreWendell = () => {
     return ( 
         <div>
             <SobreMimBody />
@@ -8,4 +8,4 @@ const Sobre = () => {
      );
 }
  
-export default Sobre;
+export default SobreWendell;
