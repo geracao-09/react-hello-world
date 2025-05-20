@@ -4,7 +4,7 @@ import NavbarWendell from "../../components/NavbarWendell";
 
 const CurriculoWendell = () => {
     return ( 
-        <div>
+        <div className="bg-black text-white h-screen">
              <NavbarWendell />
              <HeaderInfo />
             <CurriculoBody />
