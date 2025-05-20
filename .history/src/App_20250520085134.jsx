@@ -11,7 +11,6 @@ import Lucas from "./pages/Lucas"
 import JoaoPaulo from "./pages/JoaoPaulo"
 import Renato from "./pages/Renato"
 import Giovana from "./pages/Giovana"
-import Hideki from "./pages/Hideki"
 
 function App() {
 
@@ -32,7 +31,6 @@ function App() {
           <Route path="/joaopaulo" element={<JoaoPaulo />} />
           <Route path="/renato" element={<Renato />} />
           <Route path="/giovana" element={<Giovana />} />
-          <Route path="/hideki" element={<Hideki />} />
         </Routes>
       </BrowserRouter>
     </>
