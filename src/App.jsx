@@ -23,8 +23,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/wendell" element={<Wendell />} />
-          <Route path="/curriculo" element={<Curriculo />} />
-          <Route path="/sobremim" element={<SobreMim />} />
+          <Route path="/wendell/curriculo" element={<Curriculo />} />
+          <Route path="/wendell/sobremim" element={<SobreMim />} />
           <Route path="/joaovictor" element={<JoaoVictor />} />
           <Route path="/mayara" element={<Mayara />} />
           <Route path="/fabilson" element={<Fabilson />} />
