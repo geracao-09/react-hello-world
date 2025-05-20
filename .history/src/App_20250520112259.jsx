@@ -26,7 +26,6 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/wendell" element={<Wendell />} />
           <Route path="/wendell" element={<Wendell />}></Route>
           <Route path="/wendell/curriculo" element={<CurriculoWendell />} />
           <Route path="/wendell/sobremim" element={<SobreMimWendell />} />
