@@ -1,6 +1,9 @@
 const CurriculoBody = () => {
     return (
-        <h1 class="text-2xl text-white font-bold">Neste <a href="https://labce-curriculo.vercel.app/" target="_blank" >link aqui</a> você poderá acessar diretamente meu curriculo online.</h1>
+        <div className="flex flex-col items-center justify-center">
+            <h1 class="text-2xl font-bold">Neste <a href="https://labce-curriculo.vercel.app/" target="_blank" className="underline text-cyan-500">link aqui</a> você poderá acessar diretamente meu curriculo online.
+            </h1>
+        </div>
     );
 }
 
