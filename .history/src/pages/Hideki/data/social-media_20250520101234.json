@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "name": "Instagram logo",
+        "path": "/instagram.png",
+        "link": "instagram.com/hidekina"
+    },
+    {
+        "id": 2,
+        "name": "Github logo",
+        "path": "/github.png",
+        "link"
+    },
+    {
+        "id": 3,
+        "name": "Linkedin logo",
+        "path": "/linkedin.png"
+    }
+]

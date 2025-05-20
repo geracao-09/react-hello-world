@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import MinhasPaginas from "./components/MinhasPaginas";
 
 
 const Hideki = () => {

@@ -1,7 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Wendell from "./pages/Wendell"
-import CurriculoWendell from "./pages/Wendell/pages/CurriculoWendell"
-import SobreMimWendell from "./pages/Wendell/pages/SobreMimWendell"
 import JoaoVictor from "./pages/JoaoVictor"
 import Fabilson from "./pages/Fabilson"
 import Igor from "./pages/Igor"
@@ -16,8 +14,6 @@ import Giovana from "./pages/Giovana"
 import Hideki from "./pages/Hideki"
 import Mayara from "./pages/Mayara"
 import Index from "./pages/Index"
-import SobreMim from "./pages/Hideki/pages/SobreMim"
-import Curriculo from "./pages/Hideki/pages/Curriculo"
 
 function App() {
 
@@ -27,8 +23,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/wendell" element={<Wendell />} />
-          <Route path="/wendell/curriculo" element={<CurriculoWendell />} />
-          <Route path="/wendell/sobremim" element={<SobreMimWendell />} />
           <Route path="/joaovictor" element={<JoaoVictor />} />
           <Route path="/mayara" element={<Mayara />} />
           <Route path="/fabilson" element={<Fabilson />} />
@@ -42,8 +36,6 @@ function App() {
           <Route path="/renato" element={<Renato />} />
           <Route path="/giovana" element={<Giovana />} />
           <Route path="/hideki" element={<Hideki />} />
-          <Route path="/hideki/sobremim" element={<SobreMim />} />
-          <Route path="/hideki/curriculo" element={<Curriculo />} />
         </Routes>
       </BrowserRouter>
     </>
