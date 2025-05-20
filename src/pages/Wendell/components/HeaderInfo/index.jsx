@@ -7,7 +7,7 @@ const HeaderInfo = () => {
                 </h1>
             </div>
             <div>
-                <img src="/public/avatar-vendel.jpg" alt="Avatar Vendel" className="rounded-full w-32 h-32 border border-white" />
+                <img src="/avatar-vendel.jpg" alt="Avatar Vendel" className="rounded-full w-32 h-32 border border-white" />
             </div>
         </div>
     );
