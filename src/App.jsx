@@ -1,5 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Wendell from "./pages/Wendell"
+import Curriculo from "./pages/Wendell/pages/Curriculo"
+import SobreMim from "./pages/Wendell/pages/SobreMim"
 import JoaoVictor from "./pages/JoaoVictor"
 import Fabilson from "./pages/Fabilson"
 import Igor from "./pages/Igor"
@@ -12,6 +14,7 @@ import JoaoPaulo from "./pages/JoaoPaulo"
 import Renato from "./pages/Renato"
 import Giovana from "./pages/Giovana"
 import Hideki from "./pages/Hideki"
+import Mayara from "./pages/Mayara"
 
 function App() {
 
@@ -20,6 +23,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/wendell" element={<Wendell />} />
+          <Route path="/curriculo" element={<Curriculo />} />
+          <Route path="/sobremim" element={<SobreMim />} />
           <Route path="/joaovictor" element={<JoaoVictor />} />
           <Route path="/mayara" element={<Mayara />} />
           <Route path="/fabilson" element={<Fabilson />} />
