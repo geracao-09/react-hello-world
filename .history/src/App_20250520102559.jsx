@@ -17,7 +17,7 @@ import Hideki from "./pages/Hideki"
 import Mayara from "./pages/Mayara"
 import Index from "./pages/Index"
 import SobreMimHideki from "./pages/Hideki/pages/SobreMimHideki"
-import CurriculoHideki from "./pages/Hideki/pages/CurriculoHideki"
+import Curriculo from "./pages/Hideki/pages/CurriculoHideki"
 
 function App() {
 
@@ -42,8 +42,8 @@ function App() {
           <Route path="/renato" element={<Renato />} />
           <Route path="/giovana" element={<Giovana />} />
           <Route path="/hideki" element={<Hideki />} />
-          <Route path="/hideki/sobremim" element={<SobreMimHideki />} />
-          <Route path="/hideki/curriculo" element={<CurriculoHideki />} />
+          <Route path="/hideki/sobremim" element={<SobreMim />} />
+          <Route path="/hideki/curriculo" element={<Curriculo />} />
         </Routes>
       </BrowserRouter>
     </>
