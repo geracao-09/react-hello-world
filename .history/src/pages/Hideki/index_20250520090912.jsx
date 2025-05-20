@@ -1,5 +1,4 @@
-import Header from "./components/Header";
-
+import Header from "./";
 
 const Hideki = () => {
     return (
