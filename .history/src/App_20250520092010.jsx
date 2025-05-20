@@ -12,7 +12,6 @@ import JoaoPaulo from "./pages/JoaoPaulo"
 import Renato from "./pages/Renato"
 import Giovana from "./pages/Giovana"
 import Hideki from "./pages/Hideki"
-import Mayara from "./pages/Mayara"
 
 function App() {
 
@@ -33,8 +32,6 @@ function App() {
           <Route path="/joaopaulo" element={<JoaoPaulo />} />
           <Route path="/renato" element={<Renato />} />
           <Route path="/giovana" element={<Giovana />} />
-          <Route path="/giovana/curriculo" element={<CurriculoGiovana />} />
-          <Route path="/giovana/sobremim" element={<SobreMimGiovana />} />
           <Route path="/hideki" element={<Hideki />} />
         </Routes>
       </BrowserRouter>

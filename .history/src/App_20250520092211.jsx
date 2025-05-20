@@ -11,8 +11,9 @@ import Lucas from "./pages/Lucas"
 import JoaoPaulo from "./pages/JoaoPaulo"
 import Renato from "./pages/Renato"
 import Giovana from "./pages/Giovana"
+import Giovana from "./pages/Giovana/pages/Sobre Mim"
+import Giovana from "./pages/Giovana/pages/Currículo"
 import Hideki from "./pages/Hideki"
-import Mayara from "./pages/Mayara"
 
 function App() {
 
@@ -32,9 +33,8 @@ function App() {
           <Route path="/lucas" element={<Lucas />} />
           <Route path="/joaopaulo" element={<JoaoPaulo />} />
           <Route path="/renato" element={<Renato />} />
-          <Route path="/giovana" element={<Giovana />} />
-          <Route path="/giovana/curriculo" element={<CurriculoGiovana />} />
-          <Route path="/giovana/sobremim" element={<SobreMimGiovana />} />
+          <Route path="/giovana/SobreMim" element={<SobreMim />} />
+          <Route path="/giovana/Currículo" element={<Currículo />} />
           <Route path="/hideki" element={<Hideki />} />
         </Routes>
       </BrowserRouter>

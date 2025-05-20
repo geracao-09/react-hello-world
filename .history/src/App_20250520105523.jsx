@@ -34,7 +34,7 @@ function App() {
           <Route path="/renato" element={<Renato />} />
           <Route path="/giovana" element={<Giovana />} />
           <Route path="/giovana/curriculo" element={<CurriculoGiovana />} />
-          <Route path="/giovana/sobremim" element={<SobreMimGiovana />} />
+          <Route path="/giovana/" element={<SobreMimGiovana />} />
           <Route path="/hideki" element={<Hideki />} />
         </Routes>
       </BrowserRouter>

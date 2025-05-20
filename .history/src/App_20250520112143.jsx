@@ -32,9 +32,10 @@ function App() {
           <Route path="/lucas" element={<Lucas />} />
           <Route path="/joaopaulo" element={<JoaoPaulo />} />
           <Route path="/renato" element={<Renato />} />
-          <Route path="/giovana" element={<Giovana />} />
+          < path="/giovana" element={<Giovana />} >
           <Route path="/giovana/curriculo" element={<CurriculoGiovana />} />
           <Route path="/giovana/sobremim" element={<SobreMimGiovana />} />
+        
           <Route path="/hideki" element={<Hideki />} />
         </Routes>
       </BrowserRouter>
