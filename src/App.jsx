@@ -11,6 +11,7 @@ import Lucas from "./pages/Lucas"
 import JoaoPaulo from "./pages/JoaoPaulo"
 import Renato from "./pages/Renato"
 import Giovana from "./pages/Giovana"
+import Mayara from "./pages/Mayara"
 import Hideki from "./pages/Hideki"
 
 function App() {
