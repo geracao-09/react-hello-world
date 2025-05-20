@@ -1,6 +1,6 @@
 import CurriculoBody from "../../components/CurriculoBody";
 
-const Curriculo = () => {
+const CurriculoWendell = () => {
     return ( 
         <div>
             <CurriculoBody />
@@ -8,4 +8,4 @@ const Curriculo = () => {
      );
 }
  
-export default Curriculo;
+export default CurriculoWendell;

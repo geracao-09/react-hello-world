@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Wendell from "./pages/Wendell"
-import Curriculo from "./pages/Wendell/pages/Curriculo"
-import SobreMim from "./pages/Wendell/pages/SobreMim"
+import CurriculoWendell from "./pages/Wendell/pages/CurriculoWendell"
+import SobreMimWendell from "./pages/Wendell/pages/SobreMimWendell"
 import JoaoVictor from "./pages/JoaoVictor"
 import Fabilson from "./pages/Fabilson"
 import Igor from "./pages/Igor"
@@ -23,8 +23,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/wendell" element={<Wendell />} />
-          <Route path="/wendell/curriculo" element={<Curriculo />} />
-          <Route path="/wendell/sobremim" element={<SobreMim />} />
+          <Route path="/wendell/curriculo" element={<CurriculoWendell />} />
+          <Route path="/wendell/sobremim" element={<SobreMimWendell />} />
           <Route path="/joaovictor" element={<JoaoVictor />} />
           <Route path="/mayara" element={<Mayara />} />
           <Route path="/fabilson" element={<Fabilson />} />
