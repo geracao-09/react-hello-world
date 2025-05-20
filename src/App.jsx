@@ -26,10 +26,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/wendell" element={<Wendell />}>
-            <Route path="/wendell/curriculo" element={<CurriculoWendell />} />
-            <Route path="/wendell/sobremim" element={<SobreMimWendell />} />
-          </Route>
+          <Route path="/wendell" element={<Wendell />} />
+          <Route path="/wendell/curriculo" element={<CurriculoWendell />} />
+          <Route path="/wendell/sobremim" element={<SobreMimWendell />} />
           <Route path="/joaovictor" element={<JoaoVictor />} />
           <Route path="/mayara" element={<Mayara />} />
           <Route path="/fabilson" element={<Fabilson />} />

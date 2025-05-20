@@ -3,7 +3,7 @@ import Header from "./components/Header";
 
 const Wendell = () => {
     return (
-        <div className="bg-black text-white">
+        <div className="bg-black text-white h-screen">
             <Header />
             <Body />
         </div>

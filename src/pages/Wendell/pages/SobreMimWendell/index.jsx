@@ -4,7 +4,7 @@ import HeaderInfo from "../../components/HeaderInfo";
 
 const SobreWendell = () => {
     return ( 
-        <div>
+        <div className="bg-black text-white h-screen">
              <NavbarWendell />
              <HeaderInfo />
             <SobreMimBody />
