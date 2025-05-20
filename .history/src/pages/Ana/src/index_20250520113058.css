@@ -1,0 +1,7 @@
+@tailwind base; /* Regras base do Tailwind (reset de estilos, etc.) */
+@tailwind components; /* Classes para comandos pré-construídos do Tailwind */
+@tailwind utilities; /* As classes utilitárias principais (bg-blue-500, p-4, flex, etc.) */
+
+body {
+    font
+}
