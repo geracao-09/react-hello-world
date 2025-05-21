@@ -1,98 +1,128 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaReact, FaNodeJs, FaCss3Alt, FaHtml5, FaJs } from "react-icons/fa";
-
+import {
+  FaGithub,
+  FaLinkedin,
+  FaReact,
+  FaNodeJs,
+  FaCss3Alt,
+  FaHtml5,
+  FaJs,
+} from "react-icons/fa";
+import PerfilRenato from "/src/assets/PerfilRenato.png";
 const Renato = () => {
-    return (
-        <section className="max-w-lg mx-auto my-10 p-8 bg-gray-800 text-white rounded-3xl shadow-xl transform transition hover:scale-105">
-            {/* Avatar e Nome */}
-            <div className="flex flex-col items-center text-center">
-                <img
-                    src="https://private-user-images.githubusercontent.com/59034938/405424353-0f1b1533-74a6-48e5-9966-0f540d1b1445.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDc3NTIwMTQsIm5iZiI6MTc0Nzc1MTcxNCwicGF0aCI6Ii81OTAzNDkzOC80MDU0MjQzNTMtMGYxYjE1MzMtNzRhNi00OGU1LTk5NjYtMGY1NDBkMWIxNDQ1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTIwVDE0MzUxNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWFkZTFmNzliZjM1ZGFmNDQ5ZGFiMDg1OGM4Nzg3ZjIxZmI2ODA1N2NhNjE2MDYyN2E3ZjNhNDU1ZDQwMWVmODMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.hfFdoV-MQ19Te0NOtase3S7qvxnuN6mmpRFRsCK-5mA"
-                    alt="Renato Avatar"
-                    className="w-24 h-24 rounded-full border-4 border-blue-500 shadow-md"
-                />
-                <h1 className="text-4xl font-bold text-blue-400 mt-4">Renato Filho </h1>
-                <p className="text-lg text-gray-300 font-medium">Desenvolvedor Front-end | Analista de Suporte</p>
+  return (
+    <section className="w-full min-h-screen flex flex-col md:flex-row items-center justify-center bg-gradient-to-r from-black via-gray-900 to-black text-white px-12 py-16 shadow-xl border border-gray-800 rounded-lg">
+      {" "}
+      {/* Avatar com formato pentagonal e efeito tech */}{" "}
+      <div className="flex flex-col items-center text-center md:w-1/2">
+        {" "}
+        <div
+          className="w-48 h-48 md:w-64 md:h-64 overflow-hidden border-4 border-green-400 shadow-lg group relative"
+          style={{
+            clipPath: "polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%)",
+          }}
+        >
+          {" "}
+          <img
+            src={PerfilRenato}
+            alt="Renato Filho"
+            className="w-full h-full object-cover transition-transform duration-300 group-hover:brightness-125 group-hover:shadow-xl"
+          />{" "}
+        </div>{" "}
+        <h1 className="text-5xl font-extrabold text-green-300 mt-6">
+          Renato Filho
+        </h1>{" "}
+        <p className="text-lg text-gray-400 font-medium mt-2">
+          Desenvolvedor Front-end | Analista de Suporte
+        </p>{" "}
+      </div>{" "}
+      {/* Informações principais */}{" "}
+      <div className="md:w-1/2 text-center md:text-left">
+        {" "}
+        <h2 className="text-4xl font-semibold text-green-400">
+          Sobre Mim
+        </h2>{" "}
+        <p className="text-lg text-gray-300 mt-4 leading-relaxed">
+          {" "}
+          🚀 Apaixonado por desenvolvimento web e tecnologia, tenho habilidades
+          sólidas em <span className="text-green-400 font-bold">
+            React
+          </span> e <span className="text-blue-400 font-bold">Node.js</span>,
+          criando <strong>soluções eficientes e inovadoras</strong>.{" "}
+        </p>{" "}
+        {/* Barra futurista */}{" "}
+        <div className="w-32 h-1 mt-6 bg-green-400 rounded-full animate-pulse"></div>{" "}
+        {/* Habilidades Técnicas */}{" "}
+        <div className="mt-6 grid grid-cols-3 gap-6 text-lg text-gray-300">
+          {" "}
+          {[
+            { icon: <FaReact />, label: "React", color: "text-blue-400" },
+            { icon: <FaNodeJs />, label: "Node.js", color: "text-green-400" },
+            { icon: <FaJs />, label: "JavaScript", color: "text-yellow-400" },
+            { icon: <FaHtml5 />, label: "HTML", color: "text-orange-400" },
+            { icon: <FaCss3Alt />, label: "CSS", color: "text-blue-400" },
+          ].map((skill, idx) => (
+            <div key={idx} className="flex flex-col items-center group">
+              {" "}
+              <div
+                className={`text-4xl ${skill.color} group-hover:shadow-xl group-hover:brightness-125 transition-transform duration-300`}
+              >
+                {" "}
+                {skill.icon}{" "}
+              </div>{" "}
+              <span className="group-hover:text-green-300 transition-colors">
+                {skill.label}
+              </span>{" "}
             </div>
-
-            {/* Seção Sobre Mim */}
-            <div className="mt-6">
-                <h2 className="text-2xl font-semibold text-blue-300">Sobre Mim</h2>
-                <p className="text-lg text-gray-300 leading-relaxed mt-2">
-                    🔥 Apaixonado por desenvolvimento web, minha missão é criar <strong>experiências digitais impecáveis</strong>.  
-                    Tenho habilidades sólidas em <span className="font-bold text-blue-400">React</span> e <span className="font-bold text-green-400">Node.js</span>,  
-                    sempre buscando entregar <strong>soluções rápidas e eficientes</strong>.
-                </p>
-            </div>
-
-            {/* Habilidades com Ícones */}
-            <div className="mt-6">
-                <h2 className="text-2xl font-semibold text-blue-300">Habilidades Técnicas</h2>
-                <div className="grid grid-cols-3 gap-6 text-lg text-gray-300 mt-3">
-                    <div className="flex flex-col items-center">
-                        <FaReact className="text-blue-400 text-3xl" />
-                        <span>React</span>
-                    </div>
-                    <div className="flex flex-col items-center">
-                        <FaNodeJs className="text-green-400 text-3xl" />
-                        <span>Node.js</span>
-                    </div>
-                    <div className="flex flex-col items-center">
-                        <FaJs className="text-yellow-400 text-3xl" />
-                        <span>JavaScript</span>
-                    </div>
-                    <div className="flex flex-col items-center">
-                        <FaHtml5 className="text-orange-400 text-3xl" />
-                        <span>HTML</span>
-                    </div>
-                    <div className="flex flex-col items-center">
-                        <FaCss3Alt className="text-blue-400 text-3xl" />
-                        <span>CSS</span>
-                    </div>
-                </div>
-            </div>
-
-            {/* Chamada para ação */}
-            <div className="mt-6">
-                <h2 className="text-2xl font-semibold text-blue-300">Meu Objetivo</h2>
-                <p className="text-lg text-gray-300 leading-relaxed mt-2">
-                    🚀 Busco uma oportunidade para trabalhar em <strong>projetos de alto impacto</strong>,  
-                    transformando ideias em <strong>aplicações inovadoras</strong>.  
-                    💡 Se você busca um <strong>desenvolvedor comprometido</strong>, vamos conversar!
-                </p>
-            </div>
-
-            {/* Links com Ícones */}
-            <div className="flex gap-6 justify-center mt-6">
-                <a 
-                    href="https://github.com/seuusuario" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-blue-400 text-lg font-semibold hover:text-blue-500 transition duration-200"
-                >
-                    <FaGithub className="text-3xl" /> GitHub
-                </a>
-                <a 
-                    href="https://linkedin.com/in/seuusuario" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-blue-400 text-lg font-semibold hover:text-blue-500 transition duration-200"
-                >
-                    <FaLinkedin className="text-3xl" /> LinkedIn
-                </a>
-            </div>
-
-            {/* Botão de Contato */}
-            <div className="mt-8 text-center">
-                <a 
-                    href="mailto:renatoservicesti@gmail.com"
-                    className="inline-block px-6 py-3 text-lg font-semibold text-white bg-blue-500 rounded-lg hover:bg-blue-600 transition-transform transform hover:scale-105 shadow-md"
-                >
-                    ✉️ Entre em Contato
-                </a>
-            </div>
-        </section>
-    );
+          ))}{" "}
+        </div>{" "}
+        {/* Meu Objetivo */}{" "}
+        <div className="mt-6">
+          {" "}
+          <h2 className="text-2xl font-semibold text-green-400">
+            Meu Objetivo
+          </h2>{" "}
+          <p className="text-lg text-gray-300 mt-2 leading-relaxed">
+            {" "}
+            🚀 Busco uma oportunidade para trabalhar em **projetos de alto
+            impacto**, transformando ideias em **aplicações inovadoras**. 💡 Se
+            você busca um **desenvolvedor comprometido**, vamos conversar!{" "}
+          </p>{" "}
+        </div>{" "}
+        {/* Links com Ícones */}{" "}
+        <div className="flex gap-6 justify-center mt-6">
+          {" "}
+          <a
+            href="https://github.com/seuusuario"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-green-400 text-lg font-semibold hover:text-green-500 transition duration-200"
+          >
+            {" "}
+            <FaGithub className="text-3xl group-hover:shadow-xl group-hover:brightness-125 transition-transform duration-300" />{" "}
+            GitHub{" "}
+          </a>{" "}
+          <a
+            href="https://linkedin.com/in/seuusuario"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-green-400 text-lg font-semibold hover:text-green-500 transition duration-200"
+          >
+            {" "}
+            <FaLinkedin className="text-3xl group-hover:shadow-xl group-hover:brightness-125 transition-transform duration-300" />{" "}
+            LinkedIn{" "}
+          </a>{" "}
+        </div>{" "}
+        {/* Botão de Contato */}{" "}
+        <a
+          href="mailto:renatoservicesti@gmail.com"
+          className="mt-8 inline-block px-8 py-3 text-lg font-semibold bg-green-500 rounded-lg hover:bg-green-600 transition-transform transform hover:scale-105 shadow-md"
+        >
+          {" "}
+          ✉️ Entre em Contato{" "}
+        </a>{" "}
+      </div>{" "}
+    </section>
+  );
 };
-
 export default Renato;

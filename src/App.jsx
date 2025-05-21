@@ -1,4 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Layout from "./pages/Renato/components/Layout"; 
+import Renato from "./pages/Renato/Renato";
+import BioRenato from "./pages/Renato/Pages/SobreMim/BioRenato";
+import CurriculoRenato from "./pages/Renato/Pages/Curriculo/CurriculoRenato";
+import ProjetosRenato from "./pages/Renato/Pages/Projetos/ProjetosRenato";
 import Wendell from "./pages/Wendell";
 import JoaoVictor from "./pages/JoaoVictor";
 import Fabilson from "./pages/Fabilson";
@@ -9,15 +14,26 @@ import Gabriel from "./pages/Gabriel";
 import Theo from "./pages/Theo";
 import Lucas from "./pages/Lucas";
 import JoaoPaulo from "./pages/JoaoPaulo";
-import Renato from "./pages/Renato/Renato";
 import Giovana from "./pages/Giovana";
 import Hideki from "./pages/Hideki";
 import Mayara from "./pages/Mayara"; 
+
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<h1>Bem-vindo!</h1>} />
+        {/* Define o Layout como estrutura base */}
+        <Route path="/" element={<Layout />}>
+          {/* Página principal */}
+          <Route index element={<Renato />} />
+          
+          {/* Subpáginas de Renato dentro do Layout */}
+          <Route path="renato/curriculo" element={<CurriculoRenato />} />
+          <Route path="renato/sobremim" element={<BioRenato />} />
+          <Route path="renato/projetos" element={<ProjetosRenato />} />
+        </Route>
+
+        {/* Outras páginas sem Layout */}
         <Route path="/wendell" element={<Wendell />} />
         <Route path="/joaovictor" element={<JoaoVictor />} />
         <Route path="/mayara" element={<Mayara />} /> 
@@ -29,11 +45,11 @@ function App() {
         <Route path="/theo" element={<Theo />} />
         <Route path="/lucas" element={<Lucas />} />
         <Route path="/joaopaulo" element={<JoaoPaulo />} />
-        <Route path="/renato" element={<Renato />} />
         <Route path="/giovana" element={<Giovana />} />
         <Route path="/hideki" element={<Hideki />} />
       </Routes>
     </BrowserRouter>
   );
 }
+
 export default App;
